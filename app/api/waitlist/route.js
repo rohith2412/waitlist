@@ -3,6 +3,7 @@ import { getCollection } from "../../../lib/mongo";
 import { rateLimit, clientIp } from "../../../lib/rate-limit";
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
